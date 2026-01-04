@@ -1,3 +1,4 @@
+/* An armstrong number is such that it is equal to the sum of its own digits, each raised to the power of the total number of digits.*/
 package basic_maths;
 import java.util.*;
 class Solution{
