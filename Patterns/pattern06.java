@@ -1,5 +1,5 @@
 package Patterns;
-public class pattern6 {
+public class pattern06 {
     public static void main(String args[])
     {
         for(int i=5;i>=1;i--)
