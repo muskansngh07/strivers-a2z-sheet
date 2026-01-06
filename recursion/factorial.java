@@ -1,0 +1,21 @@
+package recursion;
+import java.util.*;
+class Solution{
+    public int fib(int n)
+    {
+        if(n==0 || n==1)
+            return 1;
+
+        return n* fib(n-1);
+    }
+}
+public class factorial {
+    public static void main(String args[]) {
+       Scanner sc=new Scanner(System.in) ;
+       Solution s=new Solution();
+       System.out.print("Enter a number: ");
+       int n=sc.nextInt();
+       System.out.println("The result is: "+ s.fib(n));
+       sc.close();
+    }
+}
