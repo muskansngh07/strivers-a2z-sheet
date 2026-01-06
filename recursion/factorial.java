@@ -1,12 +1,12 @@
 package recursion;
 import java.util.*;
 class Solution{
-    public int fib(int n)
+    public int fact(int n)
     {
         if(n==0 || n==1)
             return 1;
 
-        return n* fib(n-1);
+        return n* fact(n-1);
     }
 }
 public class factorial {
@@ -15,7 +15,7 @@ public class factorial {
        Solution s=new Solution();
        System.out.print("Enter a number: ");
        int n=sc.nextInt();
-       System.out.println("The result is: "+ s.fib(n));
+       System.out.println("The result is: "+ s.fact(n));
        sc.close();
     }
 }
