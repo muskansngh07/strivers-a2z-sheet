@@ -2,7 +2,7 @@ package Patterns;
 public class pattern13 {
     public static void main(String args[])
     {
-        for(int i=65;i<=70;i++)
+        for(int i=65;i<=69;i++)
         {
             for(int j=65;j<=i;j++)
             {
